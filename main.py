@@ -17,8 +17,8 @@ class SystemUser(BaseModel):
 #Об’єкт класу SystemUser
 
 user = SystemUser(id = 12345, username = "admin",
-                  email = "admin@gmail.com", password = "753159", surname = "Rembo", name= "John",
-                  is_active = True, address = {'city': 'Kyev', 'street': '123 Main Street'}, contacts=["phone: 0671775566", "work_phone: 0441246424", "fax: 0441223333"])
+                  email = "admin@gmail.com", password = "753159", surname = "Rembo", name = "John",
+                  is_active = True, address = {'city': 'Kyev', 'street': '123 Main Street'}, contacts = ["phone: 0671775566", "work_phone: 0441246424", "fax: 0441223333"])
 
 
 print(user)
