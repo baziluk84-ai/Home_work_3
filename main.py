@@ -36,6 +36,4 @@ with open('system_user.json', 'w') as f:
 with open('system_user.json', 'r') as f:
     #Перетворюємо вміст назад у об’єкт
     system_user = json.load(f)
-
-
     print(f"User configuration:",  system_user)
