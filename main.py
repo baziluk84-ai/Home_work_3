@@ -24,7 +24,7 @@ user = SystemUser(id = 12345, username = "admin",
 print(user)
 
 #Перетворюємо зміну у JSON-рядок
-system_user = user.model_dump_json()
+system_user = user.model_dump_json(indent = 4)
 #print(system_user)
 
 #Записуємо у JSON-файл

@@ -1,1 +1,18 @@
-{"id":12345,"username":"admin","email":"admin@gmail.com","password":"753159","surname":"Rembo","name":"John","is_active":true,"address":{"city":"Kyev","street":"123 Main Street"},"contacts":["phone: 0671775566","work_phone: 0441246424","fax: 0441223333"]}
+{
+    "id": 12345,
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "password": "753159",
+    "surname": "Rembo",
+    "name": "John",
+    "is_active": true,
+    "address": {
+        "city": "Kyev",
+        "street": "123 Main Street"
+    },
+    "contacts": [
+        "phone: 0671775566",
+        "work_phone: 0441246424",
+        "fax: 0441223333"
+    ]
+}
